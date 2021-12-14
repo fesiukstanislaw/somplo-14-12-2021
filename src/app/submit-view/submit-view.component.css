@@ -1,0 +1,39 @@
+.imagePreview{
+  display: inline-block;
+  position: relative;
+  animation-duration: 1.5s;
+}
+
+.image{
+  max-width: 1280px;
+  max-height: 720px;
+  margin: 60px;
+}
+
+.left-right{
+  animation-name: run-left-right;
+}
+
+.right-left{
+  animation-name: run-right-left;
+}
+
+@keyframes run-left-right {
+  0% {
+    right:100%;
+  }
+
+  100% {
+    right:0;
+  }
+}
+
+@keyframes run-right-left {
+  0% {
+    left:100%;
+  }
+
+  100% {
+    left:0;
+  }
+}

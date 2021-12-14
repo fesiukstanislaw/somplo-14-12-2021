@@ -1,0 +1,26 @@
+div.form
+{
+  display: flex;
+}
+form
+{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.form-input{
+  padding: 15px;
+  border: 1px solid black;
+  display: block;
+  margin-top: 20px;
+}
+.form-button{
+  position: relative;
+  margin-top: 20px;
+  border-radius: 30px;
+  left: 130px;
+}
+.error{
+  color: red;
+}
